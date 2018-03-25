@@ -1,0 +1,341 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Продаётся земельный участок</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css?v=1.0">
+	
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<script type='text/javascript' src='js/jquery-11.0.min.js'></script>
+
+	<script type='text/javascript' src='js/unitegallery.min.js'></script>	
+
+	<link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
+	
+	<script type='text/javascript' src='js/ug-theme-slider.js'></script>
+
+	<script src="js/flowtype.js" type="text/javascript" async></script>
+
+	<script src="https://use.fontawesome.com/6555fa707b.js"></script>
+
+	<script>
+function AjaxFormRequest(result_id,formMain,url) {
+   jQuery.ajax({
+      url:     url,
+      type:     "POST",
+      dataType: "html",
+      data: jQuery("#"+formMain).serialize(),
+      success: function(response) {
+         document.getElementById(result_id).innerHTML = response;
+      },
+      error: function(response) {
+         document.getElementById(result_id).innerHTML = "Возникла ошибка при отправке формы. Попробуйте еще раз";
+      }
+   });
+   $(':input','#formMain')
+ .not(':button, :submit, :reset, :hidden')
+ .val('')
+ .removeAttr('checked')
+ .removeAttr('selected');
+}
+</script>
+<script type="text/javascript" async>$(document).ready(function(){
+    // = Вешаем событие прокрутки к нужному месту
+    	//	 на все ссылки якорь которых начинается на #
+    	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+    		e.preventDefault();
+    
+    		var target = this.hash,
+    		$target = $(target);
+    
+    		$('html, body').stop().animate({
+    			'scrollTop': $target.offset().top
+    		}, 900, 'swing', function () {
+    			window.location.hash = target;
+    		});
+    	});
+    
+    });</script>
+  
+</head>
+<body>
+	<header id="header">
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						
+						<nav class="navbar" id="move_nav">
+							<ul class="nav navbar-nav" id="primary_menu">
+								<li><a href="#first_block"><span>Наверх</span></a></li>
+								<li><a href="#placement"><span>Расположение</span></a></li>
+								<li><a href="#gallery"><span>Галерея</span></a></li>
+								<li><a href="#char"><span>Характеристики</span></a></li>
+								<li><a href="#communication"><span>Коммуникации</span></a></li>
+								<li><a href="#documents"><span>Документы</span></a></li>
+								<li><a href="#order"><span>Заявка</span></a></li>	
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="container-fluid fon no_pad">
+	<div class="temnoe">
+		<div class="container" id="first_block">
+			<div class="row">
+				<div class="col-sm-8 ">
+					<article class="theme">
+						<h1 class="main_text">Продается</br>
+						<span>земельный участок</span>
+						</h1>
+						<p class="small_text">Для строительства</br>
+						Регионального Распределительного Центра
+						</p>
+						<div class="poloska"></div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section class="container-fluid wrapper_white" id="placement">
+		<div class="container">
+			<div class="row ">
+				<div class="col-sm-6 ">
+					<article class="place">
+						<p class="big_text">Расположение</p>				
+						<div class="poloska"></div>
+						<p class="text_plus">Участок располагается вблизи от крупной магистрали в г.Электросталь</p>
+						<p class="text_plus">Участок прилегает к дороге общего пользования выезд на Ногинское шоссе пересечение с улицей Северная </p>
+						<p class="text_plus">Выезд на Горьковское шоссе (1,7 км)</p>
+					</article>
+				</div>
+				<div class="pos">
+					<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.2380799458183!2d38.423190172359504!3d55.81412496813257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ad95f4e3c9d6d%3A0x496aceca5192b9f!2z0YPQuy4g0KHQtdCy0LXRgNC90LDRjywgOSwg0K3Qu9C10LrRgtGA0L7RgdGC0LDQu9GMLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCDQoNC-0YHRgdC40Y8sIDE0NDAwOA!5e0!3m2!1sru!2sbg!4v1512496658623" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+					<p class="ukazatel"><i class="fa fa-map-marker" aria-hidden="true"></i>город электросталь</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid docs">
+		<div class="container" id="gallery" style="display:none;">
+			<img alt="Preview Image 1"
+				 src="images/thumbs/thumb1.jpg"
+				 data-image="images/big/image1.jpg"
+				 data-description="Preview Image 1 Description">
+			
+			<img alt="Preview Image 2"
+				 src="images/thumbs/thumb2.jpg"
+				 data-image="images/big/image2.jpg"
+				 data-description="Preview Image 2 Description">
+				 
+			<img alt="Preview Image 3"
+				 src="images/thumbs/thumb3.jpg"
+				 data-image="images/big/image3.jpg"
+				 data-description="Preview Image 3 Description">
+				 
+			<img alt="Preview Image 4"
+				 src="images/thumbs/thumb4.jpg"
+				 data-image="images/big/image4.jpg"
+				 data-description="Preview Image 4 Description">
+			
+			<img alt="Preview Image 5"
+				 src="images/thumbs/thumb1.jpg"
+				 data-image="images/big/image1.jpg"
+				 data-description="Preview Image 5 Description">
+		</div>
+	</section>
+	<section class="container-fluid wrapper_grey" id="char">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 blackimg">
+					<div class="row firsticons">
+						<div class="col-sm-6">
+							<img class="center-block" src="images/form.png"><p>участок правильной формы</p>
+						</div>
+						<div class="col-sm-6">
+							<img class="center-block" src="images/height.png"><p>Без перепадов высоты</p>
+						</div>
+					</div>
+					<div class="row scndicons">
+						<div class="col-sm-6">
+							<img class="center-block" src="images/zone.png"><p>Не в санитарной
+							<br>зоне</p>
+						</div>
+						<div class="col-sm-6">
+							<img class="center-block" src="images/forest.png"><p>отсутствуют<br>посадки</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 ">
+					<article class="place_t">
+						<p class="big_text">Характеристики</p>				
+						<div class="poloska"></div>
+						<p class="text_plus">Участок имеет правильную геометрическую форму</p>
+						<p class="text_plus">Земельный участок ровный, без перепад высот  </p>
+						<p class="text_plus">Земельный участок не попадает в санитарно-защитные зоны</p>
+						<p class="text_plus">На земельном участке отсутсвуют лесопосадки</p>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid wrapper_white" id="communication">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 ">
+					<article class="place">
+						<p class="big_text">коммуникации</p>				
+						<div class="poloska"></div>
+						<div class="okoshko">
+							<p id="text_ff">площадь участка</p>
+							<p class="numeral">12 346 м<sup>2</sup></p>
+							<div class="twoforone">
+								<p id="text_te">мощность<br>электроснабжения</p>
+								<p class="numeral no_pad">2 МВт</p>
+							</div>
+							
+						</div>
+					</article>
+				</div>
+				<div class="col-sm-6 plus">
+					<div class="row hplus">
+						<div class="col-sm-4"><img src="images/heat.png">
+						</div>
+						<div class="col-sm-8"><p>Теплоснабжение – центральное отопление </p>
+						</div>
+					</div>
+					<div class="row wplus">
+						<div class="col-sm-4"><img src="images/water.png">
+						</div>
+						<div class="col-sm-8"><p>Водоснабжение – питьевая вода</p>
+						</div>
+					</div>
+					<div class="row tplus">
+						<div class="col-sm-4"><img src="images/tube.png">
+						</div>
+						<div class="col-sm-8"><p>Канализация</p>
+						</div>
+					</div>
+					<div class="row pplus">
+						<div class="col-sm-4"><img src="images/phone.png">
+						</div>
+						<div class="col-sm-8"><p>Связь – наличие возможности подведения телефонной линии</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid docs" id="documents">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 ">
+					<article class="theme">
+						<p class="main_text">Документы
+						</p>
+						<div class="poloska"></div>
+					</article>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6"><img src="images/1.jpg"></div>
+				<div class="col-md-3 col-sm-6"><img src="images/2.jpg"></div>
+				<div class="col-md-3 col-sm-6"><img src="images/3.jpg"></div>
+				<div class="col-md-3 col-sm-6"><img src="images/4.jpg"></div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid wrapper_white" id="order">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 index">
+					<article class="eqw cont">
+						<p class="big_text_one">контакты</p>				
+						<div class="poloska"></div>
+						<div class="okoshko_t">
+							
+							<div class="forma">
+								<div class="wrapper">
+									 <div class="form">
+									  <div id="messegeResult">Оставьте Ваши контакты и мы свяжемся с Вами </div>
+									  <form class="row" method="post" action="" id="formMain">
+									        <input class="col-sm-4 col-md-offset-1" id="name" type="text" name="name" placeholder="Введите Ваше имя" maxlength="30" autocomplete="off" />
+									        <input class="col-sm-4" id="telephone" type="Tel" name="telephone" placeholder="Введите Ваш e-mail" maxlength="90" autocomplete="off"/>
+									        <input class="col-sm-3 col-md-2" id="button" type="button"  value="Отправить" onclick="AjaxFormRequest('messegeResult', 'formMain', 'form.php')"/>
+									  </form>
+									  </div>
+									</div>
+							</div>
+							
+							
+						</div>
+					</article>
+				</div>
+				<div class="pos_t">
+					<div id="pic">
+						<div class="temnoe"></div>
+					</div>
+				</div>
+				<div class="col-sm-6 name">
+					<p class="big_text_one">Андрей</p>
+					<div><img src="images/envelope.png"><p class="contacts">mr.77701@yandex.ru</p>
+					</div>
+					<div><img src="images/phone_w.png"><p class="contacts">+7 (926) 138 08 11</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript">
+		$('.big_text').flowtype({
+   minimum   : 200,
+   maximum   : 500,
+   minFont   : 30,
+   maxFont   : 110,
+   fontRatio : 5
+});
+	</script>
+	<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery("#gallery").unitegallery();
+
+		});
+		
+	</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

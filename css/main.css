@@ -1,0 +1,104 @@
+#header{
+	background-color: #333333;
+	
+	height: 688px;
+	width: 100%;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+}
+#big_head_word{
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 110px;
+	color: #fff;
+	line-height: 90px;
+	letter-spacing: -0.025em;
+}
+.row{
+	border: none; 
+    background-color: #da491c; 
+    height: 2px;
+    width: 145px;
+}
+#small_head_word{
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	line-height: 36px;
+}
+.main_paragraph{
+	height: 265px;
+	color: #000;
+	background-color: #fff;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+}
+.main_paragraph div{
+	width: 1170px;
+}
+.caption{
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 48px;
+	border-left: 3px solid #da491c;
+	padding-left: 0.5em;
+}
+.main_text{
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #333333;
+	line-height: 30px;
+}
+.my_works{
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	background-color: #fff;
+}
+.my_works div{
+	width: 50%;
+	height: auto;
+	margin: 0;
+	display: table;
+}
+#first_work{
+	background: url(../images/uchastok.jpg) no-repeat top ;
+	background-size: cover;
+	min-height: 320px;
+}
+#second_work{
+	background: url(../images/cart_1600.jpg) no-repeat top ;
+	background-size: cover;
+	min-height: 320px;
+}
+.my_works a{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+.glaz{
+	display: none;
+}
+.my_works a:hover{
+	background-color: rgba(0,0,0,0.75);
+}
+.my_works a:hover .glaz{
+	display: block;
+	margin: auto;
+	color: #fff;
+	font-size: 40px;
+}
+footer{
+	padding: 20px;
+}
