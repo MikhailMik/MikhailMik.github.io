@@ -91,6 +91,7 @@
 	}
 	.description__pic{
 		margin-right: -100px;
+		overflow: hidden;
 	}
 	.coupon__wrapper{
 		width: 90%;
