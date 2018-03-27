@@ -84,11 +84,17 @@
 		width: 60%;
 	}
 	.description__wrapper{
-		width: 100%;
+		width: 90%;
+	}
+	.description-list{
+		padding-left: 40px; 
+	}
+	.description__pic{
+		margin-right: -100px;
 	}
 	.coupon__wrapper{
-		width: 100%;
-		padding: 50px 0;
+		width: 90%;
+	
 	}
 	.coupon__pic{
 		display: none;
@@ -116,5 +122,8 @@
 	
 	.btn--short{
 		margin-top:8px;
+	}
+	.btn-nomargin{
+		margin-top: 10px;
 	}
 }
