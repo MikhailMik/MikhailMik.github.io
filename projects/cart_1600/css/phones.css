@@ -83,11 +83,6 @@
 	.standarts__article{
 		width: 60%;
 	}
-	.description{
-		position: relative;
-		z-index: 1;
-		overflow-x: hidden;
-	}
 	.description__wrapper{
 		width: 90%;
 	}
