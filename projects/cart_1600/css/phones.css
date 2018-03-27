@@ -113,4 +113,8 @@
 	.big-text-white--cor-margin{
 		margin-bottom: 60px;
 	}
+	
+	.btn--short{
+		margin-top:8px;
+	}
 }
