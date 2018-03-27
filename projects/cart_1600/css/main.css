@@ -142,7 +142,7 @@ h1 span{
 }
 .form-inputs{
 	outline: none;
-	margin-top: 25px;
+	margin: 25px 5px 0 5px;
 	padding: 1px 0 1px 30px;
 	width: 250px;
 	font-size: 17px;
