@@ -48,9 +48,9 @@
 		<div class="page-wrapper page-wrapper--head">
 			<img class="page-header__logo" src="images/logo.png" alt="">
 			<nav class="main-nav">
-				<a class="main-nav__item" href="">харакеристики</a>
-				<a class="main-nav__item" href="">Наши стандарты</a>
-				<a class="main-nav__item main-nav__item--btn" href="">получить скидку</a>
+				<a class="main-nav__item" href="#char">харакеристики</a>
+				<a class="main-nav__item" href="#stan">Наши стандарты</a>
+				<a class="main-nav__item main-nav__item--btn" href="#disc">получить скидку</a>
 			</nav>
 		</div>
 	</header>
@@ -79,7 +79,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="specifications">
+	<section class="specifications" id="char">
 		<h2 class="specifications__head">Технические характеристики<br>
 		<span>торговой тележки</span>
 		</h2>
@@ -117,7 +117,19 @@
 				</div>
 				<div class="interesting">
 					<p>интересно?</p>
-					<a class="main-nav__item--btn btn-noborder" href="">узнать подробнее</a>
+					<div id="zatemnenie">
+					      <div class="form-full okno">
+							<form class="form-full__all" action="send.php" method="post" id="formMain">
+							<p class="no-marg"><i class="fas fa-user-circle font-icon-grey"></i><input class="form-inputs" type="text" name="fio" placeholder="Ваше имя" required></p>
+							<p class="no-marg"><i class="fas fa-envelope font-icon-grey"></i><input class="form-inputs" type="text" name="email" placeholder="Ваш e-mail" required></p>
+							<p class="no-marg"><i class="fas fa-phone font-icon-grey"></i><input class="form-inputs" type="text" name="telephone" placeholder="Ваш телефон" required></p>
+							<input class="main-nav__item--btn btn-noborder" type="submit"  value="Отправить заявку" onclick="AjaxFormRequest('messegeResult', 'formMain', 'form.php')">
+							</form>
+							<div class="close-btn">
+								<a class="close-btn--X" href="">X</a>
+							</div>
+						  </div>
+					<a class="main-nav__item--btn btn-noborder" href="#zatemnenie">узнать подробнее</a>
 				</div>
 			</div>
 			<img class="specifications__pic" src="images/8.png" alt="">
@@ -133,7 +145,7 @@
 			<img class="equipment__pics" src="images/10.png" alt="">
 			<img class="equipment__pics" src="images/4.png" alt="">
 		</div>
-		<a class="main-nav__item--btn btn-noborder" href="">получить прайс</a>
+		<a class="main-nav__item--btn btn-noborder" href="#zatemnenie">получить прайс</a>
 	</section>
 	<section class="seasonality">
 		<h2 class="big-text-white big-text-white--cor-margin">Скажем нет сезонности!</h2>
@@ -152,7 +164,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="standarts">
+	<section class="standarts" id="stan">
 		<h2 class="big-text-pink">наши стандарты</h2>
 		<div class="standarts__wrapper">
 			<div class="standarts__article">
@@ -193,7 +205,7 @@
 			<img class="description__pic" src="images/layer-1-copy.png" alt="">
 		</div>
 	</section>
-	<section class="coupon">
+	<section class="coupon" id="disc">
 		<div class="coupon__wrapper">
 			<img class="coupon__pic" src="images/layer-2.png" alt="">
 			<div class="coupon__content">
