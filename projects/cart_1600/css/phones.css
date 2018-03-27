@@ -85,13 +85,14 @@
 	}
 	.description__wrapper{
 		width: 90%;
+		overflow: hidden;
 	}
 	.description-list{
 		padding-left: 40px; 
 	}
 	.description__pic{
 		margin-right: -100px;
-		overflow: hidden;
+
 	}
 	.coupon__wrapper{
 		width: 90%;
