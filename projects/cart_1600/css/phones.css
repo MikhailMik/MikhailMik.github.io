@@ -88,6 +88,7 @@
 	}
 	.coupon__wrapper{
 		width: 100%;
+		padding: 50px 0;
 	}
 	.coupon__pic{
 		display: none;
@@ -105,5 +106,8 @@
 		margin-left: 0;
 		margin-top: 50px;
 		-webkit-transform: scaleX(-1) rotate(-50deg);-ms-transform: scaleX(-1) rotate(-50deg);transform: scaleX(-1) rotate(-50deg);
+	}
+	.specifications__head{
+		padding-top: 60px;
 	}
 }
