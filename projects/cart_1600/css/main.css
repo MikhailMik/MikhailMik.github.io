@@ -322,6 +322,9 @@ h1 span{
 	display: inline-block;
 
 }
+.btn--short{
+	margin-top:20px;
+}
 .seasonality__wrapper--text{
 	width: 630px;
 }
