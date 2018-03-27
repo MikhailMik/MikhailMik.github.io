@@ -141,6 +141,7 @@ h1 span{
 	color: #b5b9bd;
 }
 .form-inputs{
+	outline: none;
 	margin-top: 25px;
 	padding: 1px 0 1px 30px;
 	width: 250px;
@@ -150,7 +151,7 @@ h1 span{
   	text-align: left;
   	color: #b5b9bd;
   	border: none;
-  	border-bottom: 1px solid #b5b9bd;
+  	border-bottom: 1px solid #d3d6d9;
 }
 .form-inputs--big-marg{
 	margin-top: 40px;
