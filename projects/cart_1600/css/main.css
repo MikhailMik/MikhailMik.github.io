@@ -262,6 +262,9 @@ h1 span{
 	display: table-cell;
 	vertical-align: middle;
 }
+#zatemnenie p{
+	margin: 0;
+}
 .equipment{
 	height: 670px;
 	background-color: #43b1fd;
